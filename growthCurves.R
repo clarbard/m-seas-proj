@@ -181,15 +181,15 @@ for (itime in 1:itimemax) {
 growth_st <- gg_mat_ns #gg_mat_ns from the nonseasonal model
 growth <- gg_mat ##gg_mat from seasonal model
 laststep = length(model_sim@n[,1,1])
-pred_st = pm_mat_ns #PREDATION MORTALITY ON FISH SPECIES nonseasonal
-pred = pm_mat #predation mortality on fish species seasonal
-natmort_st = nm_mat_ns #natural mortality nonseasonal
-natmort = nm_mat #natural mortality seasonal
-
-
-
-
-
+pred_st <-  pm_mat_ns #PREDATION MORTALITY ON FISH SPECIES nonseasonal
+pred <-  pm_mat #predation mortality on fish species seasonal
+natmort_st <-  nm_mat_ns #natural mortality nonseasonal
+natmort <-  nm_mat #natural mortality seasonal
+ 
+ 
+ 
+ 
+ 
 #Now we take the following segment directly from Datta et al. code:
 # LOOK AT GROWTH AND SURVIVAL
 T = 15/dt; # number of time steps you want to follow cohort for
