@@ -204,6 +204,8 @@ plot_9<- animateSpectra(simulation_9, power = 2, wlim = c(10,60))
 
 
 
+
+
 ###now plot them with titles
 
 
@@ -278,14 +280,11 @@ plotSpectra2(simulation_1, simulation_9, power = 2, wlim = c(10,100))
 
 
 
+simulation_1 <-  project(params_20, t_max = 1, dt = 0.01, t_save = 0.01)
 
+nonseas_sim <- project(non_seas, t_max = 1, dt = 0.01, t_save = 0.01)
 
-
-
-
-
-
-
+plotSpectra2(nonseas_sim, simulation_1, name1 = 'Nonseasonal', name2 = 'Seasonal', power = 2)
 
 
 
