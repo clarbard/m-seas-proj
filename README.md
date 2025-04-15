@@ -1,11 +1,7 @@
 # m-seas-projD
 
 
-This is my first attempt at using GIT and GITHUB for my 3rd year project. I will attempt to upload my
-R code here so I can track versions and store it and stuff.
-
-There will be errors, but I will figure it out eventually.
+This is my first attempt at using GIT and GITHUB for my 3rd year project. 
 
 
-First update: I was finally able to push the file on my computer to github! It looks weird as the README, 
-buy maybe that's something I need to remember how to fix with html stuff? 
+The main R files from my research can be found in this repository. Additionally, the code I used to generate the figures in my Dissertation Paper can be found in PaperFigures.R.
