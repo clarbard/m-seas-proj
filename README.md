@@ -1,4 +1,4 @@
-# m-seas-projD
+# m-seas-proj
 
 
 This is my first attempt at using GIT and GITHUB for my 3rd year project. 
